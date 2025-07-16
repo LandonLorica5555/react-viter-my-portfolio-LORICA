@@ -8,7 +8,16 @@ const Skills = () => {
           <h1 className="text-white text-4xl font-bold text-center mb-10">
             My Skills
           </h1>
-          <div className="grid grid-cols-[1fr_1fr_1fr] gap-6">
+          <div className="grid grid-cols-[1fr_1fr_1fr] gap-4 justify-items-center">
+            <div className="bg-white size-80 shadow-xl p-6 rounded-xl">
+
+            </div>
+            <div className="bg-white size-80 shadow-xl p-6 rounded-xl">
+
+            </div>
+            <div className="bg-white size-80 shadow-xl p-6 rounded-xl">
+
+            </div>
             <div className="bg-white size-80 shadow-xl p-6 rounded-xl">
 
             </div>
