@@ -1,5 +1,12 @@
 import React from "react";
-import { FaEnvelope, FaFacebookF, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaFacebookF,
+  FaGithub,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+} from "react-icons/fa";
 
 const AboutMe = () => {
   return (
@@ -7,9 +14,12 @@ const AboutMe = () => {
       <section id="about" className="bg-[#222831] w-full p-20">
         <div className="container mx-auto">
           <h1 className="text-5xl font-bold text-white mb-10 text-center">
-            About Me
+            About{" "}
+            <span className="text-5xl font-bold bg-gradient-to-r from-[#E6521F] to-[#EA2F14] bg-clip-text text-transparent">
+              Me
+            </span>
           </h1>
-          <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-6 mb-6">
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-6 mb-10 ">
             <div className="">
               <img
                 src="/images/webp/about me image.webp"
@@ -17,8 +27,8 @@ const AboutMe = () => {
                 className="size-[30rem] w-auto h-fit rounded-xl"
               />
             </div>
-            <div className="py-14">
-              <h3 className="text-2xl font-semibold bg-gradient-to-r from-[#E6521F] to-[#EA2F14] bg-clip-text text-transparent mb-6">
+            <div className="py-4 md:py-10">
+              <h3 className="text-2xl md:text-3xl font-semibold bg-gradient-to-r from-[#E6521F] to-[#EA2F14] bg-clip-text text-transparent mb-">
                 Crafting exceptional websites
               </h3>
               <p className="text-white text-justify mb-4">
@@ -41,32 +51,70 @@ const AboutMe = () => {
                 When I'm not coding, you'll find me playing, watching tips about
                 coding, or exercising.
               </p>
-              <div className="flex flex-row space-x-6 justify-items-center items-center">
-                <a className="bg-gradient-to-r from-[#E6521F] to-[#EA2F14] text-white px-3 py-3 rounded-full shadow-lg font-medium text-2xl hover:text-3xl transition-all ease-in-out">
-                    <FaGithub />
+              <div className="flex flex-row space-x-6 justify-center lg:justify-start">
+                <a
+                  href="#"
+                  className="bg-gradient-to-r from-[#E6521F] to-[#EA2F14] text-white px-3 py-3 rounded-full shadow-lg font-medium text-2xl hover:text-3xl transition-all ease-in-out"
+                >
+                  <FaGithub />
                 </a>
-                <a className="bg-gradient-to-r from-[#E6521F] to-[#EA2F14] text-white px-3 py-3 rounded-full shadow-lg font-medium text-2xl hover:text-3xl transition-all ease-in-out">
-                    <FaFacebookF />
+                <a
+                  href="#"
+                  className="bg-gradient-to-r from-[#E6521F] to-[#EA2F14] text-white px-3 py-3 rounded-full shadow-lg font-medium text-2xl hover:text-3xl transition-all ease-in-out"
+                >
+                  <FaFacebookF />
                 </a>
-                <a className="bg-gradient-to-r from-[#E6521F] to-[#EA2F14] text-white px-3 py-3 rounded-full shadow-lg font-medium text-2xl hover:text-3xl transition-all ease-in-out">
-                    <FaEnvelope />
+                <a
+                  href="#"
+                  className="bg-gradient-to-r from-[#E6521F] to-[#EA2F14] text-white px-3 py-3 rounded-full shadow-lg font-medium text-2xl hover:text-3xl transition-all ease-in-out"
+                >
+                  <FaEnvelope />
                 </a>
-                <a className="bg-gradient-to-r from-[#E6521F] to-[#EA2F14] text-white px-3 py-3 rounded-full shadow-lg font-medium text-2xl hover:text-3xl transition-all ease-in-out">
-                    <FaInstagram />
+                <a
+                  href="#"
+                  className="bg-gradient-to-r from-[#E6521F] to-[#EA2F14] text-white px-3 py-3 rounded-full shadow-lg font-medium text-2xl hover:text-3xl transition-all ease-in-out"
+                >
+                  <FaInstagram />
                 </a>
-                <a className="bg-gradient-to-r from-[#E6521F] to-[#EA2F14] text-white px-3 py-3 rounded-full shadow-lg font-medium text-2xl hover:text-3xl transition-all ease-in-out">
-                    <FaTwitter/>
+                <a
+                  href="#"
+                  className="bg-gradient-to-r from-[#E6521F] to-[#EA2F14] text-white px-3 py-3 rounded-full shadow-lg font-medium text-2xl hover:text-3xl transition-all ease-in-out"
+                >
+                  <FaTwitter />
                 </a>
               </div>
             </div>
           </div>
-          <div className="pictures grid grid-cols-1 md:grid-flow-row">
-            <div className="w-fit h-fit bg-white ">
-                <img className="size-20" src="/images/webp/coding.webp" alt="This is a coding picture" />
+          <div className="pictures flex flex-col md:flex-row gap-10 justify-center items-center">
+            <div className="w-72 h-48 bg-white rounded-xl">
+              <img
+                src="/images/webp/IT Support Intern.webp"
+                alt="This is me when in training"
+                className="w-full h-full object-cover rounded-xl"
+              />
+            </div>
+            <div className="w-72 h-48 bg-white rounded-xl">
+              <img
+                src="/images/webp/IT Support Intern - 2.webp"
+                alt="This is another me when in training"
+                className="w-full h-full object-cover rounded-xl"
+              />
+            </div>
+            <div className="w-72 h-48 bg-white rounded-xl">
+              <img
+                src="/images/webp/Me when in outings.webp"
+                alt="This is me when enjoying"
+                className="w-full h-full object-cover rounded-xl"
+              />
+            </div>
+            <div className="w-72 h-48 bg-white rounded-xl">
+              <img
+                src="/images/webp/Me when I travel.webp"
+                alt="This is me when traveling"
+                className="w-full h-full object-cover rounded-xl"
+              />
             </div>
           </div>
-
-          
         </div>
       </section>
     </>

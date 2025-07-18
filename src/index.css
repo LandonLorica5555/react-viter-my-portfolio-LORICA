@@ -35,3 +35,13 @@
     @apply mx-auto px-4;
   }
 }
+
+@layer components {
+  .page-container {
+    @apply flex flex-col min-h-screen;
+  }
+  .content-wrap {
+    /* @apply flex-1 */
+    flex: 1;
+  }
+}

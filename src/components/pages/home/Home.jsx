@@ -5,15 +5,21 @@ import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import Banner from "./banner/Banner";
 import Skills from "./skills/Skills";
 import AboutMe from "./about me/AboutMe";
+import Experience from "./experience/Experience";
+import Footer from "../../partials/Footer";
 
 const Home = () => {
   return (
     <>
-      <div className="min-h-screen">
-        <Header />
-        <Banner />
-        <AboutMe />
-        <Skills />
+      <div className="page-container">
+        <div className="content-wrap">
+          <Header />
+          <Banner />
+          <AboutMe />
+          <Skills />
+          <Experience />
+        </div>
+        <Footer />
       </div>
     </>
   );

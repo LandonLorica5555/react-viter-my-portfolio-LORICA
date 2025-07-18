@@ -12,7 +12,7 @@ const Header = () => {
         <div className="container max-w-6xl mx-auto flex justify-between items-center">
           <div className="flex items-center">
             <BiArrowToRight className="text-[#000000] text-2xl mr-2" />
-            <span className="text-xl font-semibold bg-gradient-to-r from-[#E6521F] to-[#EA2F14] bg-clip-text text-transparent">
+            <span className="text-xl font-bold bg-gradient-to-r from-[#E6521F] to-[#EA2F14] bg-clip-text text-transparent">
               Landon Lorica
             </span>
             <BiArrowToLeft className="text-[#000000] text-2xl ml-2" />
@@ -75,7 +75,7 @@ const Header = () => {
                    pt-20
                  `}
       >
-        <div className="container mx-auto px-6 py-8 flex flex-col">
+        <div className="container mx-auto px-6 py-8 flex flex-col gap-6 justify-items-center items-center text-xl">
           <a
             href="#home"
             className="font-medium text-gray-700 hover:bg-gradient-to-r from-[#E6521F] to-[#EA2F14] hover:bg-clip-text hover:text-transparent hover:border-b-2 hover: border-[#FB9E3A] transition duration-300"

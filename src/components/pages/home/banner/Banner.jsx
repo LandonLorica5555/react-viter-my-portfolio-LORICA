@@ -7,7 +7,7 @@ const Banner = () => {
         {/* Hero Section */}
       <section id="home" className="bg-[#393E46] w-full p-20">
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center items-center gap-10">
             <div className="">
               <h1 className="text-5xl font-bold text-white mb-4">
                 Hi! I am <br /> Landon Lorica <br />{" "}
@@ -16,11 +16,11 @@ const Banner = () => {
                 </span>
                 <div className="mt-4 w-14 h-1.5 bg-gradient-to-r from-[#E6521F] to-[#EA2F14]"></div>
               </h1>
-              <p className="text-white mt-6 mb-6">
+              <p className="text-white text-justify mt-6 mb-6">
                 A computer engineering student passionate about creating elegant
                 websites. I specialize in Tailwind and JavaScript ecosystems.
               </p>
-              <div className="flex flex-row gap-6">
+              <div className="flex flex-col lg:flex-row gap-6">
                 <button className="bg-gradient-to-r from-[#E6521F] to-[#EA2F14] text-white font-medium px-8 py-3 rounded-full shadow-lg">
                   View My Work  →
                 </button>
